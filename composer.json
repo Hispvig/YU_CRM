@@ -1,0 +1,19 @@
+{
+  "name": "commission/for_transaction",
+  "type": "project",
+  "require": {
+    "php": "^7.4"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/Classes"
+    }
+  }
+}
